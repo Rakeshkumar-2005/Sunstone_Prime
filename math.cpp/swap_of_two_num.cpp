@@ -1,18 +1,17 @@
 #include<iostream>
 using namespace std;
+
 int main(){ 
-    int a=5;
-    int b=10;
-    cout<<"\t "<<a;
-    cout<<b;
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    cout<<"\t"<<a;
-    cout<<b;
+    int a , b;
+    cout<<"Enter the first  number:";
+    cin>>a;
+    cout<<"Enter the second number:";
+    cin>>b;
+    cout << "Before swapping:"<<" "<<a << " " << b << endl;
 
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
-    return 0;
-
-
+    cout <<"After swapping:"<<" "<< a << " " << b << endl;
 }
