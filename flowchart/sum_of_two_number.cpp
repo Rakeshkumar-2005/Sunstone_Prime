@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){444
+int main(){
     int a,b;
     cout<<"Enter first numbers: "<<endl;
     cin>>a;
