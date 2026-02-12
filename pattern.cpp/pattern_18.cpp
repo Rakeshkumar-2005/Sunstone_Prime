@@ -9,7 +9,7 @@ int main(){
         for(int j=0;j<mid-i;j++){
             cout<<"   ";
         }  // space
-        for(int j=0;j<=2*i+1;j++){
+        for(int j=0;j<2*i+1;j++){
             cout<<" * ";
         }      //star
         cout<<endl;
@@ -19,7 +19,7 @@ int main(){
         for(int j=0;j<mid-i;j++){
             cout<<"   "; 
         }  // space
-        for(int j=0;j<=2*i+1;j++){
+        for(int j=0;j<2*i+1;j++){
             cout<<" * ";
         }cout<<endl;
 
