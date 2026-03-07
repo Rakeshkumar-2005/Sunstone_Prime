@@ -28,7 +28,7 @@ int main(){
 
 // vector declear
 vector<int>a;
-a = {1,2,3,4,5};
+// a = {1,2,3,4,5};
 
 
 a.push_back(20);
